@@ -7,6 +7,9 @@ publish = false
 
 [dependencies]
 solana-program = "1.5.0"
+thiserror = "1.0.21"
+arrayref = "0.3.6"
+spl-token = {version = "3.0.1", features = ["no-entrypoint"]}
 
 [features]
 test-bpf = []
